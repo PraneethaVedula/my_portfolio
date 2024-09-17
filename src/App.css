@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin:0;
+    padding:0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body{
+    background-color:black;
+    color:white;
   }
-  to {
-    transform: rotate(360deg);
+  .photo{
+    background-color:rgb(33,33,33)
+    
+  
   }
-}
+  .photo:hover img{
+    transform: rotate(3deg);
+    
+  }
+  
+  .photo:hover{
+    background-color:rgb(55,55,55);
+   
+    
+  }
+  .photo img{
+    width: 250px;
+    height: 250px;
+  }
+  .small-box li{
+    list-style-type: none;
+    cursor: pointer;  
+    margin-block-start: 10px;
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  a i {
+    color: white;
+  }
+  
+  .grid-black h1:hover{
+   color:yellow;
+   cursor: pointer;
+  }
+  .color_border{
+    border: 2px solid red;
+    animation: borderRotate 3s linear infinite;
+  }
+  
+  @keyframes borderRotate {
+    0% {
+      border-color: red;
+      /* transform: rotate(0deg); */
+    }
+    25% {
+      border-color: blue;
+      /* transform: rotate(90deg); */
+    }
+    50% {
+      border-color: green;
+      /* transform: rotate(180deg); */
+    }
+    75% {
+      border-color: yellow;
+      /* transform: rotate(270deg); */
+    }
+    100% {
+      border-color: red;
+      /* transform: rotate(360deg); */
+    }
+  }
+  
+  .prize-box img{
+    height: 140px;
+    width:200px;
+  }
+  
+  .prize-box{
+    background-color: rgb(33,33,33);
+  }
+  .prize-box:hover{
+    background-color: rgb(66,66,66);
+  }
+  a{
+    color: yellow;
+    cursor: pointer;
+  }
+  .education{
+    width:35vw;
+    
+  }
+  .about{
+    background-color:rgb(33,33,33) ;
+  }
+  .name{
+    color: white;
+  }
+  
+  .certificate-img {
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    max-height: 200px; /* Adjust the max height to fit your layout */
+    height: auto;
+    object-fit: contain;
+  }
+  .Certi-box img {
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    max-height: 200px; /* You can adjust this value based on how large you want the images */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the defined height/width without being cropped */
+  }
+  
+  
+  
