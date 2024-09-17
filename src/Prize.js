@@ -7,20 +7,14 @@ const Prize = ()=>{
           title: "ACM Winter School",
           description:
             "Selected in the top 50 out of 1000+ applicants to attend the ACM Winter School at IIT Patna, focusing on cutting-edge insights on AI and ML, and Industry 4.0.Participated in workshops, seminars, and networking sessions with industry professionals and experts, enhancing knowledge and professional connections.",
-          image: './brainathon.png' 
+          image: './ACM_Patna.jpg' 
         },
         {
           title: "Amazon Summer School",
           description:
           "Selected among the top 3000 candidates for a prestigious 4-week program focusing on advanced topics in machine learning. Participated in 8 intensive classes covering supervised learning, deep neural networks, generative AI, and latest developments in LLMs (Large Language Models).",
-          image: './sharktank.png'
-        },
-            {
-              title: "Bug Rush",
-              description:
-                "Played a pivotal role in our team's impressive third-place finish in the Bug Rush competition. My keen eye for detail and expertise in identifying HTML, CSS, and JavaScript bugs helped resolve challenges in the NGC-organized event at VIT-AP.",
-              image: "none" 
-            }
+          image: './amazon_ml.jpg'
+        }
         ];
     return(
         <>
@@ -46,9 +40,3 @@ const Prize = ()=>{
     )
 }
 export default Prize;
-    
-    
-    
-    
-    
-  
