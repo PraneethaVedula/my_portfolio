@@ -26,7 +26,7 @@ const About = ()=>{
     <Link to="/" ><h4 className='mt-4  ms-3'>PRANEETHA VEDULA /About</h4></Link>
     <div className='container-fluid d-flex flex-column justify-content-center align-items-center'>
         <div className=' about border border-light rounded px-5 py-4 m-5 col-10'>
-        "Hi, I'm Praneetha, a year Computer Science Engineering (CSE) student at VIT-AP University in Andhra Pradesh.
+        "Hi, I'm Praneetha, a final year Computer Science Engineering (CSE) student at VIT-AP University in Andhra Pradesh.
          I specialize in Artificial Intelligence (AI) and Machine Learning (ML). While pursuing my degree,
           I'm passionately exploring the world of cutting-edge technologies and their applications. 
           I have a solid foundation in programming, data structures, and algorithms, and I'm dedicated to refining my skills 
